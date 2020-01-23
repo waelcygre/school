@@ -28,9 +28,9 @@ int main()
 	}while(choice=="y" || choice=="Y");
 
 	cout<<"***END OF PROGRAM***\n";
+    cin.clear(); cin.ignore(); cin.get(); //program wait
 
-
-	return ;
+	return 0;
 }
 
 //General Functions
